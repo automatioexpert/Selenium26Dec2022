@@ -1,5 +1,6 @@
 package testcases;
 
+import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import base.TestBase;
@@ -21,6 +22,7 @@ public class LoginTest extends TestBase {
 		login.getPassword().sendKeys("secret_sauce");
 		login.getLoginBtn().click();
 		System.out.println("Login Test Passed");
+		Assert.assertTrue(false);
 	}
 
 }

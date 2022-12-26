@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>TestNG:  Login Test</title>
+<title>TestNG:  Login Test(failed)</title>
 <link href="../testng.css" rel="stylesheet" type="text/css" />
 <link href="../my-testng.css" rel="stylesheet" type="text/css" />
 
@@ -53,13 +53,13 @@ function toggleAllBoxes() {
 
 </head>
 <body>
-<h2 align='center'>Login Test</h2><table border='1' align="center">
+<h2 align='center'>Login Test(failed)</h2><table border='1' align="center">
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Dec 26 22:03:47 IST 2022</td>
+<td>Started on:</td><td>Mon Dec 26 22:10:54 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (931 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (940 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -79,8 +79,9 @@ function toggleAllBoxes() {
 <td><div><pre>java.lang.AssertionError: expected [true] but found [false]
 	at testcases.LoginTest.loginTest(LoginTest.java:25)
 	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1526062841", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1526062841'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at testcases.TestRunner.main(TestRunner.java:15)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1413886135", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1413886135'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertTrue(Assert.java:45)
@@ -111,12 +112,10 @@ function toggleAllBoxes() {
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
 	at org.testng.TestNG.runSuites(TestNG.java:1063)
 	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	at testcases.TestRunner.main(TestRunner.java:15)
 </pre></div></td>
 <td>0</td>
-<td>testcases.LoginTest@365185bd</td></tr>
+<td>testcases.LoginTest@4dfa3a9d</td></tr>
 </table><p>
 </body>
 </html>
